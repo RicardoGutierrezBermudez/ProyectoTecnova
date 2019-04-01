@@ -1,0 +1,109 @@
+@font-face {
+    font-family: CODE;
+    src: url(../fuentes/CODE.otf);
+}
+
+@font-face {
+    font-family: CODEb;
+    src: url(../fuentes/CODEb.otf);
+}
+
+@font-face {
+    font-family: "lemon";
+    src: url(../fuentes/lemon.otf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: linear-gradient(to bottom,#E0ECF8, #F5F9F4);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 7px;
+    margin-left: 10px;
+    float: left;
+
+}
+
+.princ {
+    position: fixed;
+    margin: 10px 40px;
+    width: 100%;
+    font-family: CODE;
+    font-size: 22px;
+}
+
+.int{
+    font-family: CODEb;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+.menu li a{
+    
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    padding-top: 23px;
+    display: block;
+    text-align: center;
+    width: 307.2px; 
+    height: 30px;
+}
+
+.menu li a:hover {
+    color: black;
+    background-color: rgb(190, 229, 214);
+}
+
+.menu > li{
+    float:left;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu li:hover > ul{
+    display: block;
+    background-color: rgba(223, 247, 192, 0.842); 
+}
+
+.menu li ul {
+   position: fixed;
+}
+
+.menu li ul li ul{
+    right: 820px;
+    top: 199px;
+    
+}
+
+.registro {
+    position: absolute;
+    margin-left: 450px;
+    font-size: 28px;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    margin-top: 100px;
+    font-family: lemon;
+}

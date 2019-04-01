@@ -1,0 +1,416 @@
+@font-face {
+    font-family: CODE;
+    src: url(../fuentes/CODE.otf);
+}
+
+@font-face {
+    font-family: CODEb;
+    src: url(../fuentes/CODEb.otf);
+
+}
+@font-face {
+    font-family: "lemon";
+    src: url(../fuentes/lemon.otf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: linear-gradient(to bottom,#E0ECF8, #F5F9F4);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 7px;
+    margin-left: 10px;
+    float: left;
+
+}
+
+.princ {
+    position: fixed;
+    margin: 10px 40px;
+    width: 100%;
+    font-family: CODE;
+    font-size: 22px;
+}
+
+.int{
+    font-family: CODEb;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+.menu li a{
+    
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    padding-top: 23px;
+    display: block;
+    text-align: center;
+    width: 307.2px; 
+    height: 30px;
+}
+
+.menu li a:hover {
+    color: black;
+    background-color: rgb(190, 229, 214);
+}
+
+.menu > li{
+    float:left;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu li:hover > ul{
+    display: block;
+    background-color: rgba(223, 247, 192, 0.842); 
+}
+
+.menu li ul {
+   position: fixed;
+}
+
+.menu li ul li ul{
+    right: 855px;
+    top: 199px;
+    
+}
+.titulo{
+    margin-top: 150px;
+    margin-left: 700px;
+    position: absolute;
+    font-family: lemon;
+    font-size: 30px;
+}
+.textoA{
+    border: 0px solid black;
+    width: 400px;
+    height: 100px;
+    margin-top: 200px;
+    margin-left: 100px;
+    position: absolute;
+    z-index: -1;
+    font-family: lemon;
+    font-size: 22px;
+}
+.nombreA{
+    margin-top: 350px;
+    margin-left: 100px;
+    position: absolute;
+    font-family: CODE;
+}
+.ec-stars-wrapper {
+	font-size: 0;
+	display: inline-block;
+    margin-top: 385px;
+    margin-left: 100px;
+}
+.ec-stars-wrapper a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	font-size: 20px;
+	
+	color: #888;
+}
+
+.ec-stars-wrapper:hover a {
+	color: rgb(39, 130, 228);
+}
+.ec-stars-wrapper > a:hover ~ a {
+	color: #888;
+}
+.opinionA{
+    margin-top: 380px;
+    margin-left: 100px;
+    position: absolute;
+    font-family: CODE;
+    font-size: 10px;
+}
+.textoB{
+    border: 0px solid black;
+    width: 400px;
+    height: 100px;
+    top: 300px;
+    margin-left: 700px;
+    position: absolute;
+    z-index: -1;
+    font-family: lemon;
+    font-size: 22px;
+}
+.opinionB{
+   top: 480px;
+    margin-left: 700px;
+    position: absolute;
+    font-family: CODE;
+    font-size: 10px;
+}
+.nombreB{
+    top: 450px;
+    margin-left: 700px;
+    position: absolute;
+    font-family: CODE;
+}
+.ec-stars-wrapperA {
+	font-size: 0;
+	display: inline-block;
+    margin-top: 485px;
+    margin-left: 520px;
+    position: absolute;
+}
+.ec-stars-wrapperA a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	font-size: 20px;
+	
+	color: #888;
+}
+
+.ec-stars-wrapperA:hover a {
+	color: rgb(39, 130, 228);
+}
+.ec-stars-wrapperA > a:hover ~ a {
+	color: #888;
+}
+hr{
+    height: 10px;
+    width: 1200px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 90px;
+    background-image: linear-gradient(to right,#d8e1e7, yellow);
+    border: 0px;
+    z-index: -1000;
+    
+}
+.tituloB{
+     margin-top: 280px;
+    margin-left: 700px;
+    position: absolute;
+    font-family: lemon;
+    font-size: 30px;
+}
+.textoC{
+    border: 0px solid black;
+    width: 400px;
+    height: 100px;
+    top: 800px;
+    margin-left: 150px;
+    position: absolute;
+    z-index: -1;
+    font-family: lemon;
+    font-size: 22px;
+}
+.opinionC{
+   top: 980px;
+    margin-left: 150px;
+    position: absolute;
+    font-family: CODE;
+    font-size: 10px;
+}
+.nombreC{
+    top: 950px;
+    margin-left: 150px;
+    position: absolute;
+    font-family: CODE;
+}
+.ec-stars-wrapperB {
+	font-size: 0;
+	display: inline-block;
+    margin-top: 985px;
+    margin-left: -35px;
+    position: absolute;
+}
+.ec-stars-wrapperB a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	font-size: 20px;
+	
+	color: #888;
+}
+
+.ec-stars-wrapperB:hover a {
+	color: rgb(39, 130, 228);
+}
+.ec-stars-wrapperB > a:hover ~ a {
+	color: #888;
+}
+.textoD{
+    border: 0px solid black;
+    width: 400px;
+    height: 100px;
+    top: 900px;
+    margin-left: 750px;
+    position: absolute;
+    z-index: -1;
+    font-family: lemon;
+    font-size: 22px;
+}
+.opinionD{
+   top: 1130px;
+    margin-left: 750px;
+    position: absolute;
+    font-family: CODE;
+    font-size: 10px;
+}
+.nombreD{
+    top: 1100px;
+    margin-left: 750px;
+    position: absolute;
+    font-family: CODE;
+}
+.ec-stars-wrapperC {
+	font-size: 0;
+	display: inline-block;
+    margin-top: 1135px;
+    margin-left: 565px;
+    position: absolute;
+}
+.ec-stars-wrapperC a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	font-size: 20px;
+	
+	color: #888;
+}
+
+.ec-stars-wrapperC:hover a {
+	color: rgb(39, 130, 228);
+}
+.ec-stars-wrapperC > a:hover ~ a {
+	color: #888;
+}
+.hrB{
+    height: 10px;
+    width: 1200px;
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 90px;
+    background-image: linear-gradient(to right,#d8e1e7, yellow);
+    border: 0px;
+    z-index: -1000;
+    
+}
+.tituloC{
+    margin-top: 880px;
+    margin-left: 700px;
+    position: absolute;
+    font-family: lemon;
+    font-size: 30px;
+}
+.textoE{
+    border: 0px solid black;
+    width: 400px;
+    height: 100px;
+    top: 1400px;
+    margin-left: 150px;
+    position: absolute;
+    z-index: -1;
+    font-family: lemon;
+    font-size: 22px;
+}
+.opinionE{
+   top: 1530px;
+    margin-left: 150px;
+    position: absolute;
+    font-family: CODE;
+    font-size: 10px;
+}
+.nombreE{
+    top: 1500px;
+    margin-left: 150px;
+    position: absolute;
+    font-family: CODE;
+}
+.ec-stars-wrapperD {
+	font-size: 0;
+	display: inline-block;
+    margin-top: 1535px;
+    margin-left: -35px;
+    position: absolute;
+}
+.ec-stars-wrapperD a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	font-size: 20px;
+	
+	color: #888;
+}
+
+.ec-stars-wrapperD:hover a {
+	color: rgb(39, 130, 228);
+}
+.ec-stars-wrapperD > a:hover ~ a {
+	color: #888;
+}
+.textoF{
+    border: 0px solid black;
+    width: 400px;
+    height: 100px;
+    top: 1500px;
+    margin-left: 750px;
+    position: absolute;
+    z-index: -1;
+    font-family: lemon;
+    font-size: 22px;
+}
+.opinionF{
+   top: 1600px;
+    margin-left: 750px;
+    position: absolute;
+    font-family: CODE;
+    font-size: 10px;
+}
+.nombreF{
+    top: 1570px;
+    margin-left: 750px;
+    position: absolute;
+    font-family: CODE;
+}
+.ec-stars-wrapperE {
+	font-size: 0;
+	display: inline-block;
+    margin-top: 1605px;
+    margin-left: 570px;
+    position: absolute;
+}
+.ec-stars-wrapperE a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	font-size: 20px;
+	
+	color: #888;
+}
+
+.ec-stars-wrapperE:hover a {
+	color: rgb(39, 130, 228);
+}
+.ec-stars-wrapperE > a:hover ~ a {
+	color: #888;
+}

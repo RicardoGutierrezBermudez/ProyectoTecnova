@@ -1,0 +1,198 @@
+@font-face {
+    font-family: CODE;
+    src: url(../fuentes/CODE.otf);
+}
+
+@font-face {
+    font-family: CODEb;
+    src: url(../fuentes/CODEb.otf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    margin: 0px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    margin-left: 5px;
+    position: absolute;
+}
+.header{
+    position: fixed;
+    margin: 10px 40px;
+    width: 100%;
+    font-family: CODE;
+    font-size: 22px;
+
+}
+
+.int{
+    font-family: CODEb;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+.menu li a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    padding-top: 23px;
+    display: block;
+    text-align: center;
+    width: 307.2px; 
+    height: 30px;
+}
+
+.menu li a:hover{
+    color: black;
+    background-color: rgb(190, 229, 214);
+}
+
+.menu > li{
+    float:left;
+}
+
+.menu li ul{
+    display: none;
+    position: relative;
+    min-width: 140px;
+}
+
+.menu li:hover > ul{
+    display: block;
+    background-color: rgba(223, 247, 192, 0.842); 
+}
+
+.menu li ul li ul{
+    right: -101px;
+    top: 0px;
+
+}
+
+.princ{
+    height: 200px;
+    width: 100%;
+    border: 0px solid black;
+    border-radius: 5px;
+    margin-top: 10%;
+    background-image: linear-gradient(to right,#d8e1e7, yellow);
+    position: absolute;
+    z-index: -1000;
+    font-family: CODE;
+}
+.pat{
+    padding-left: 10%;
+    padding-top: 5%;
+    color: red;
+}
+.I{
+    margin-left: 10%;
+    position: absolute;
+}
+.patro{
+    width: 80%;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 150px;
+    
+}
+.mod{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 600px;
+    
+}
+.cent{
+    position:relative;
+    margin-left: 100px;
+}
+.ex{
+    position:relative;
+    margin-left: 50px;
+}
+.seg{
+    height: 200px;
+    width: 70%;
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 300px;
+    
+}
+.ter{
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 750px;
+}
+hr{
+    height: 10px;
+    width: 900px;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 250px;
+    background-image: linear-gradient(to right,#d8e1e7, yellow);
+    border: 0px;
+}
+.par{
+     position:relative;
+    margin-left: 50px;
+}
+.cuar{
+     height: 200px;
+    width: 60%;
+    position: absolute;
+    margin-top: 1100px;
+    margin-left: 400px;
+}
+.quin{
+    position: absolute;
+    margin-top: 1100px;
+    margin-left: 750px;
+}
+.barra2{
+    height: 10px;
+    width: 900px;
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 250px;
+    background-image: linear-gradient(to right,#d8e1e7, yellow);
+    border: 0px;
+}
+.madt{
+    position:relative;
+    margin-left: 30px;
+}
+.sex{
+    height: 200px;
+    width: 60%;
+    position: absolute;
+    margin-top: 1400px;
+    margin-left: 400px;
+    
+}
+.set{
+    position: absolute;
+    margin-top: 1425px;
+    margin-left: 750px;
+}
+.barra3{
+    height: 10px;
+    width: 900px;
+    position: absolute;
+    margin-top: 1300px;
+    margin-left: 250px;
+    background-image: linear-gradient(to right,#d8e1e7, yellow);
+    border: 0px;
+}

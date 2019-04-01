@@ -1,0 +1,143 @@
+@font-face {
+    font-family: CODE;
+    src: url(../fuentes/CODE.otf);
+}
+
+@font-face {
+    font-family: CODEb;
+    src: url(../fuentes/CODEb.otf);
+}
+
+*{
+    padding: 0px;
+    margin:0;
+    
+}
+
+body{
+    background-image: linear-gradient(to bottom,#E0ECF8, #F5F9F4);;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:100%;
+    max-width: 800px;
+    min-width: 1200px;
+    display: inline-block;
+    
+    
+}
+
+.logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 7px;
+    margin-left: 10px;
+    float: left;
+
+}
+
+.princ {
+    position: fixed;
+    margin: 10px 40px;
+    width: 100%;
+    font-family: CODE;
+    font-size: 22px;
+}
+
+.int{
+    font-family: CODEb;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+.menu li a{
+    
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    padding-top: 23px;
+    display: block;
+    text-align: center;
+    width: 307.2px; 
+    height: 30px;
+}
+
+.menu li a:hover {
+    color: black;
+    background-color: rgb(190, 229, 214);
+}
+
+.menu > li{
+    float:left;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu li:hover > ul{
+    display: block;
+    background-color: rgba(223, 247, 192, 0.842); 
+}
+
+.menu li ul {
+   position: fixed;
+}
+
+.menu li ul li ul{
+    right: 855px;
+    top: 199px;
+    
+}
+.imagen{
+    height: 400px;
+    width: 700px;
+    margin-left: 340px;
+    margin-top: 150px;
+    text-align: center;
+   
+}
+
+hr{
+    height: 10px;
+    width: 1200px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 90px;
+    background-image: linear-gradient(to right,#d8e1e7, yellow);
+    border: 0px;
+    z-index: -1000;
+    
+}
+.A{
+    height: 400px;
+    width: 700px;
+    margin-left: 90px;
+    float: left;
+    position: relative;
+    padding: 15px;
+    z-index: -1000;
+    
+}
+p{
+    margin-top:120px;
+    margin-left: 100px;
+    position: relative;
+    font-family: CODE;
+    text-align: justify;
+    z-index: -1000;
+    
+}
+.caja{
+    margin-right: 40px;
+    z-index: -1000;
+    
+}
+

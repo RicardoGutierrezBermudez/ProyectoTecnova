@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TECNOVA</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/indexRegistro.css" />
+    </head>
+    <body>
+        <div class="princ">
+            <ul class="menu">
+                <a href="../index.html"><img class="logo" src="../imagenes/logo3.png" /></a>
+                <li><a href="#">INICIO</a>
+                    <ul>
+                        <li class="int"><a href="../html/quienesSomos.html">QUIÉNES SOMOS</a></li>
+                        <li class="int"><a href="#">INSTALACIONES</a>
+                            <ul>
+                                <li class="int"><a href="../html/alcobendas.html">ALCOBENDAS</a>
+                                <li class="int"><a href="../html/villaviciosa.html">VILLAVICIOSA</a>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">PROYECTOS</a>
+                    <ul>
+                        <li class="int"><a href="../html/MasterClass.html">MASTER CLASS</a></li>
+                        <li class="int"><a href="../html/campus2.html">CAMPUS PARTY</a></li>
+                        <li class="int"><a href="../html/Talleres.html">TALLERES</a></li>
+                    </ul>
+                </li>
+                <li><a href="../html/servicios.html">SERVICIOS</a>
+                </li>
+                <li><a href="../html/Opiniones.html">OPINIONES</a>
+                </li>
+            </ul>
+        </div>
+        <div class="registro">
+            <form name = "formulario" method = "post" action = "mailto:ricardo.gutierrez.bermudez@gmail.com">
+                <table border = "1px" border rules = "all" width = "450" cellpadding = "14">
+                    <tr>
+                        <td bgcolor = "#BFC5C5">
+                            <h1 align = "center">Formulario de Registro</h1>
+                        </td>	
+                    </tr>
+                    <tr>
+                        <td>
+                            <h2>Datos Personales</h2>
+                            <p>
+                                Usuario:	
+                                <input type = "text" name = "usuario" placeholder = "Usuario" size = "30" minlength = "3" maxlength = "40" required />
+                            </p>
+                            <p>
+                                Correo electrónico: 
+                                <input type = "email" name = "email" placeholder = "correo@email.com" required />
+                            </p>
+                            <p>
+                                <fieldset>
+                                    <legend>Ubicación</legend>
+                                    Dirección: <input type = "text" name = "Direccion" autocomplete = "off" placeholder = "Dirección" required pattern = "[A-Za-z0-9]+"/><br>
+                                    Código Postal: <input type = "number" name = "Codigo Postal" placeholder = "Código Postal" min = "00001" max = "99999"/><br>
+                                    Población <input type = "text" name = "Poblacion" placeholder = "Población" pattern = "[A-Za-z]+"/><br>
+                                    Provincia: <input type = "text" name = "Provincia" placeholder = "Provincia" pattern = "[A-Za-z]"/><br>
+                                    País: <input type = "text" name = "Pais" placeholder = "País" pattern = "[A-Za-z]"/><br>
+                                </fieldset>
+                            </p>
+                            <p>
+                                Sexo: 
+                                <input type = "radio" name = "sexo" value = "Hombre" required /> Masculino
+                                <input type = "radio" name = "sexo" value = "Mujer" required /> Femenino
+                            </p>	
+                            <p>
+                                Entrada:<br>
+                                <select name = "entrada" required>
+                                    <option value = "1">Niños - Gratis</option>
+                                    <option value = "2">Adultos Normal - 15€</option>
+                                    <option value = "3">Adultos Premium - 25€</option>
+                                    <option value = "4">Adultos VIP - 35€</option>
+                                    <option value = "5">Universitarios - 8€</option>
+                                    <option value = "6">Tercera Edad - 3€</option>
+                                </select>	
+                            </p>
+                            <p>
+                                Legalidades:<br>
+                                <input type = "checkbox" checked required />
+                                Acepto los términos y condiciones.
+                            </p>
+                            <button type = "submit"> <img src = "../imagenes/registrar.png" alt "Enviar" width = "80" height = "28">
+                            <button type = "reset"> <img src = "../imagenes/reiniciar.png" alt "Resetear" width = "80" height = "28">
+                        </td>	
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

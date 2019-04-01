@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "lemon";
+    src: url(../fuentes/lemon.otf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url("../imagenes/logocp.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: top;
+    font-family: "lemon";
+}
+.s {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 98.5% 100%;
+    margin: 60px 20px;
+    position: fixed;
+    float: left;
+}
+
+#redes {
+    width: 45px;
+    height: 45px;
+    margin-left: 3px;
+    margin-top: 20px;
+    border-radius: 100%;
+    
+}
+
+.princ {
+    float: right;
+    position: absolute;
+    margin: 10px 40px;
+    width: 100%;
+    font-family: CODE;
+    font-size: 22px;
+}
+
+.logo{
+    position: fixed;
+    width: 50px;
+    height:50px;
+    margin-top: 45px;
+    margin-left: 80px;
+    float: right;
+    
+}
+
+.int{
+    font-family: CODEb;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+.menu li a{
+    font-family: "lemon";
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    width: 307.2px; 
+    height: 30px;
+      
+}
+
+.menu li ul li a:hover {
+    transform: scale(1.4);
+    color: rgb(39, 39, 129);
+    
+}
+
+.menu > li{
+    float:right;
+    margin-right: 70px;
+    
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu li:hover > ul{
+    display: block;
+    backface-visibility: visible;
+    border-color: black;
+    border-block-end-style: dashed;
+    border-block-start-style: dashed;
+    border-block-end-width: 3px;
+    border-block-start-width: 3px;
+    border-left: 3px dashed black;
+    border-right: 3px dashed black;
+    margin-top: 48px;
+    /*background-image: url("../imagenes/logouem3.png");/*#F5F7F4;*/
+    background-color: beige;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;  
+}
+
+.menu li ul {
+   position: fixed;
+}
+
+.foto {
+    width: 800px;
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 400px;
+    z-index: -1000;
+    border-radius: 15px;
+}
+#campus {
+    margin-left: 480px;
+    margin-top: 800px;
+    color: darkgreen;
+    font-size: 36px;
+    
+}
+.qs {
+    text-align: center;
+    margin: 15px 70px;
+}
+.cp {
+    font-size: 28px;
+    font-style: normal;
+    
+}
+.prog  {
+     margin-left: 70px;
+     font-size: 28px;
+ }
+#t {
+    color: darkgreen;
+    font-size: 36px;
+ }
+
+#f {
+    color: darkgreen;
+    font-size: 36px;
+ }
+.imagenes img{
+    width: 600px;
+    height: 400px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+.imagenes .cam3 {
+    width: 1000px;
+    height: 500px;
+    margin-left: 180px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
